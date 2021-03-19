@@ -17,15 +17,15 @@ a rating for the book, and the a recommend button.
 */
 
 
-//login grabs
-const createAcct = documentgetElementbyClass("create_account");
-const formUName = document.querySelector(".login_account");
-const pWord = document.querySelector(".login_account");
-const submitBtn = document.querySelector(".login_account");
-const search = document.getElementByClassName("search");
-
-
-
+//create user grabs
+const createUsername = document.getElementById("createUsername");
+const pword = document.getElementById("pword");
+const pwordCheck = document.getElementById("pwordCheck");
+const submitBtn = document.getElementById("submitBtn");
+//create login grabs
+const loginUsername = document.getElementById("loginUsername");
+const loginPassword =document.getElementById("loginPassword");
+const submitBtnLogin = document.getElementById("submitBtnLogin");
 
 
 
