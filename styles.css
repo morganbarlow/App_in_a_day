@@ -44,6 +44,20 @@
     background-color: #E1CA96;
     height: 100%;
 }
+
+.page_content .book_wrapper {
+    width: 100vw;
+    background: #839073;
+    height: 10vh;
+}
+
+.page_content .book_wrapper .book_key {
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
 .page_content .user_form {
     width: 100vw;
     display: grid;
