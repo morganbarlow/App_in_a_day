@@ -16,16 +16,25 @@ const url = 'https://mobookslazproblems-api.herokuapp.com/'
 
 fetch('https://mobookslazproblems-api.herokuapp.com/')
 .then(response => response.json())
-.then(data => let data.
+.then(data => let data.createUsername 
 
+function createNode(element){
+    return document.createElement(element);
+}
 
+function append(parent,elemenet) {
+    return parent.appendChild
+}
+/* 
+
+*/
 
 catch(function(error){
 //code input here
 });
 
 
-function createNode()
+
 
 
 // Adding a User  to User Endpoints 
