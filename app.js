@@ -17,7 +17,7 @@ a rating for the book, and the a recommend button.
 */
 
 
-
+//login grabs
 const createAcct = documentgetElementbyClass("create_account");
 const formUName = document.querySelector(".login_account");
 const pWord = document.querySelector(".login_account");
@@ -31,10 +31,9 @@ const search = document.getElementByClassName("search");
 
 // Grabbing the Domain 
 
-const bEnd = fetch('https://mobookslazproblems-api.herokuapp.com/')
-
-bEnd
-.then()
+fetch('https://mobookslazproblems-api.herokuapp.com/')
+.then(response =>) response.json())
+.then(data => //placeholder)
 
 
 
