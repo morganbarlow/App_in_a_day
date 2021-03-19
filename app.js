@@ -17,12 +17,13 @@ a rating for the book, and the a recommend button.
 */
 
 
-const log = document.getElementByClass("account_button");
+
 const createAcct = documentgetElementbyClass("create_account");
-const formUName = document.querySelector(".login_account")[0];
-const pWord = document.querySelector(".login_account")[1];
-const submitBtn = document.querySelector(".login_account")[2];
+const formUName = document.querySelector(".login_account");
+const pWord = document.querySelector(".login_account");
+const submitBtn = document.querySelector(".login_account");
 const search = document.getElementByClassName("search");
+
 
 
 
@@ -32,6 +33,7 @@ const search = document.getElementByClassName("search");
 
 const bEnd = fetch('https://mobookslazproblems-api.herokuapp.com/')
 
+bEnd
 .then()
 
 
