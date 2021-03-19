@@ -24,6 +24,7 @@
     border-radius: 5px;
     width: 350px;
     height: 30px;
+    border: 2px solid #2C2C34
 }
 
 .account_button .button_wrapper a{
@@ -44,9 +45,9 @@
     height: 100%;
 }
 .page_content .user_form {
-display: grid;
-justify-content: flex-start;
-align-items: flex-start;
+    display: grid;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .footer {
