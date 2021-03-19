@@ -15,21 +15,17 @@ const url = 'https://mobookslazproblems-api.herokuapp.com/'
 // Grabbing the Domain 
 
 fetch('https://mobookslazproblems-api.herokuapp.com/')
-.then(response =>) response.json())
-.then(data => //placeholder)
+.then(response => response.json())
+.then(data => let data.
 
-catch(functions(){
+
+
+catch(function(error){
 //code input here
 });
 
 
-
-
-
-
-
-
-
+function createNode()
 
 
 // Adding a User  to User Endpoints 
