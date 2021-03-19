@@ -22,18 +22,17 @@ const createAcct = documentgetElementbyClass("create_account");
 const formUName = document.querySelector(".login_account")[0];
 const pWord = document.querySelector(".login_account")[1];
 const submitBtn = document.querySelector(".login_account")[2];
+const search = document.getElementByClassName("search");
+
 
 
 
 
 // Grabbing the Domain 
 
-fetch('https://mobookslazproblems-api.herokuapp.com/')
+const bEnd = fetch('https://mobookslazproblems-api.herokuapp.com/')
 
-,then()
-
-
-
+.then()
 
 
 
@@ -45,6 +44,8 @@ fetch('https://mobookslazproblems-api.herokuapp.com/')
 //Deleting a Book to the Delete Book Endpoints 
 
 
+
+// Functionalities 
 
 
 
