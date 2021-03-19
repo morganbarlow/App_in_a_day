@@ -26,6 +26,27 @@ const submitBtn = document.querySelector(".login_account")[2];
 
 
 
+// Grabbing the Domain 
+
+fetch('https://mobookslazproblems-api.herokuapp.com/')
+
+,then()
+
+
+
+
+
+
+// Adding a User  to User Endpoints 
+
+
+// Adding a Book to Book Enpoints
+
+//Deleting a Book to the Delete Book Endpoints 
+
+
+
+
 
 
 
