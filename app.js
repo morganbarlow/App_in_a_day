@@ -17,22 +17,23 @@ a rating for the book, and the a recommend button.
 */
 
 
-const log = document.getElementByClass("account_button");
-const createAcct = documentgetElementbyClass("create_account");
-const formUName = document.querySelector(".login_account")[0];
-const pWord = document.querySelector(".login_account")[1];
-const submitBtn = document.querySelector(".login_account")[2];
-const search = document.getElementByClassName("search");
-
-
+//create user grabs
+const createUsername = document.getElementById("createUsername");
+const pword = document.getElementById("pword");
+const pwordCheck = document.getElementById("pwordCheck");
+const submitBtn = document.getElementById("submitBtn");
+//create login grabs
+const loginUsername = document.getElementById("loginUsername");
+const loginPassword =document.getElementById("loginPassword");
+const submitBtnLogin = document.getElementById("submitBtnLogin");
 
 
 
 // Grabbing the Domain 
 
-const bEnd = fetch('https://mobookslazproblems-api.herokuapp.com/')
-
-.then()
+fetch('https://mobookslazproblems-api.herokuapp.com/')
+.then(response =>) response.json())
+.then(data => //placeholder)
 
 
 
