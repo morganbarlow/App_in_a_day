@@ -51,6 +51,13 @@
     align-items: flex-start;
 }
 
+.page_content .user_form .create_account, .login_account {
+    background: #839073;
+    border-radius: 15px;
+    height: 150px;
+    margin-top: 15px;
+}
+
 .page_content .user_form h3 {
     color: #513B0B;
 }
