@@ -5,6 +5,12 @@
     width: 100vw;
 }
 
+.searchbar input {
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+}
+
 /* homepage styles */
 .header {
     display: flex;
