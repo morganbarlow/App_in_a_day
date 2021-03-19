@@ -1,0 +1,27 @@
+/* common styles */
+.page_container {
+    margin:-8px;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* homepage styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cb807d;
+    margin-left: 0px;
+}
+
+.header .logo img {
+    width: 9rem;
+}
+
+.header .account_button .button_wrapper {
+    margin-right: 30px;
+}
+
+/* login styles */
+
+/* user styles */
